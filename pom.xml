@@ -11,7 +11,8 @@
 	<groupId>com.lyas</groupId>
 	<artifactId>tms</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>tms</name>
+    <packaging>pom</packaging>
+    <name>tms</name>
 	<description>TMS project</description>
 	<url/>
 	<licenses>
@@ -20,7 +21,10 @@
 	<developers>
 		<developer/>
 	</developers>
-	<scm>
+    <modules>
+        <module>transport</module>
+    </modules>
+    <scm>
 		<connection/>
 		<developerConnection/>
 		<tag/>
